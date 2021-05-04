@@ -6,14 +6,15 @@
 .pnp.js
 node_modules/
 *.ts
-
+/*.ts 
 # testing
 /coverage
 
 # production
 /build
 /frontend/build
-.ts
+*.ts
+/*.ts 
 
 # misc
 .DS_Store
