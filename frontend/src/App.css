@@ -1,0 +1,12 @@
+.App {
+  overflow: hidden;
+}
+
+.leaflet-right {
+  right: 15px !important;
+}
+
+.atrribute-modal .modal-content,
+.atrribute-modal .modal-dialog {
+  min-width: 750px;
+}
