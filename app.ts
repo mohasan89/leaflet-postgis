@@ -11,7 +11,7 @@ declare global {
     }
 }
 
-require("dotenv").config();
+if (process.env.NODE_ENV !== "production"){require("dotenv").config()}
 
 
 import express, {Express, Request, NextFunction, Response} from 'express'
